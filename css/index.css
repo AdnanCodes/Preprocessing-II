@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav a {
+  font-size: 1.35rem;
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +198,14 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .intro-section {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .intro-section h2 {
+  padding-top: 30px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -224,4 +252,19 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  height: 14%;
+  width: 100;
+  padding-top: 10px;
+  background-color: #17A2B8;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  margin: 30px 0;
+  cursor: pointer;
 }
