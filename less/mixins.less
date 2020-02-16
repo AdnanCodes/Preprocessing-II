@@ -1,1 +1,18 @@
 // Mixins in here
+
+.button(@bordercurve, @mtopbottom, @mrightleft){
+    //@bodercurve sets border-radius values of button
+    //@mtopbottom sets top and bottom margins of button 
+    //@mrightleft sets right and left margins of button
+    background-color: @button-bg;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding:12px;
+    border-radius: @bordercurve;
+    margin: @mtopbottom @mrightleft;
+    cursor: pointer;
+}
